@@ -1,0 +1,312 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans JP";
+}
+
+body
+{
+    letter-spacing: 0.07em;
+}
+
+/*
+main
+{
+    background-image: url("images/haikei.png");
+}
+*/
+/*
+header
+{
+    background-color:#1d1d1d;
+    position:sticky;
+    top:0px;
+} 
+*/
+
+/*header */ a:hover
+{
+    opacity:0.4;
+}
+
+/*header */ a
+{
+    transition: all 0.4s;
+}
+
+hr{
+    margin-bottom:20px;
+}
+
+body
+{
+    background-color: #1d1d1d;
+    color: #ffffff;
+}
+
+
+
+h2{text-align:center;
+    text-decoration: none;}
+
+    /*へっだ*/
+.headder{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+
+/*Header 
+{
+    position: fixed;
+    background-color: #1d1d1d;
+    width: 100%;
+}*/
+
+header .header
+{
+    font-size:16px;
+}
+
+Header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+}
+
+Header nav ul li
+{
+    margin-right: 40px;
+    margin-bottom:15px;
+}
+
+Header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*サブメニュー処理 */
+
+/*
+ul.menu ul
+{
+    margin:0px;
+    padding:0px;
+    display:none;
+    position:absolute;
+}
+
+ul.menu li:hover ul
+{
+    display:block;
+}
+
+.ddclass a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+*/
+
+
+
+header .myhr
+{
+    margin-bottom : 10px;
+}
+
+header .myhr a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*うしろのどうが*/
+.bg-video
+{
+    position: relative;
+}
+
+
+.bg-video .reel
+{  
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.reel_douga
+{
+    width:100%;
+    opacity: 0.4;
+}
+
+.bg-showreel_mozi
+{
+
+    margin-top:20px;
+    padding-left:145px;
+    font-size:65px;
+}
+.vimeo
+{
+    margin-top:20px;
+    margin-left:100px;
+    margin-right:160px;
+
+    margin-bottom:20px;
+}
+.youtube
+{
+    margin-top:20px;
+    margin-right: 100px;
+    
+
+    margin-bottom:20px;
+}
+
+.reel a:hover
+{
+    position:relative;
+    bottom:3px;
+    opacity: 0.8;
+
+}
+
+.work_douga
+{
+    margin-left : 200px;
+    margin-top  : 70px;
+    display:block;
+}
+
+p.year{
+    font-size: 22px;
+    margin-left : 20px;
+}
+
+p.date{
+    font-size : 14px;
+    margin-left : 40px;
+}
+
+.thumbnail
+{
+    margin-left: 25px;
+    margin-right:70px;
+    float: left;
+}
+
+.title{
+    font-size : 55px;
+    padding-left: 100px;
+    display : block;
+}
+.title_anker
+{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.bikou
+{
+    font-size : 20px;
+    color :#999999;
+}
+
+.syousai
+{
+    margin-top : 50px;
+    margin-left : 50px;
+    color :#cccccc;
+}
+
+.btnsyousai
+{
+    text-decoration: none;
+}
+
+
+.button_syousai
+{
+    margin-top:70px;
+}
+
+.returnTop
+{
+    text-align: center;
+    font-size : 15px;
+    color :#999999;
+    margin-top:20px;
+
+}
+.returnTop a{
+
+text-decoration: none;
+color: #ffffff;
+}
+
+
+/*ぱんくず*/
+#pankuzu
+{ 
+    color: #999999;
+    margin-left:200px
+   
+}
+
+#pankuzu a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#pankuzu ol{
+    list-style-type: none; 
+    display:flex;
+}
+
+#pankuzu ol li
+{
+    margin-right:20px;
+}
+
+#pankuzu ol  li::after
+{
+    content:"/";
+    padding : 10px;
+}
+
+#pankuzu ol  li:last-child::after
+{
+    content: none;
+}
+footer
+{
+    margin-top:60px;
+    margin-bottom:20px;
+}
+
+.footer_big
+{
+    text-align: center;
+    color :#9e9e9e;
+    font-size:14px;
+
+}
+.footer
+{
+    text-align: center;
+    color :#9e9e9e;
+    font-size:10px;
+
+}

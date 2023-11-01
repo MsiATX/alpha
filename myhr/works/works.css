@@ -1,0 +1,118 @@
+/*
+#pankuzu
+{ 
+    color: #999999;
+    margin-left:200px
+   
+}
+
+#pankuzu a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#pankuzu ol{
+    list-style-type: none; 
+    display:flex;
+}
+
+#pankuzu ol li
+{
+    margin-right:20px;
+}
+
+#pankuzu ol  li::after
+{
+    content:"/";
+    padding : 10px;
+}
+
+#pankuzu ol  li:last-child::after
+{
+    content: none;
+}
+*/
+
+.movie
+{
+    text-align: center;
+    margin-top:50px;
+}
+
+.setumei
+{
+    text-align: center;
+    margin-top:5px;
+    font-size:16px;
+    color:#cccccc;
+}
+.setumei_big
+{
+    text-align: center;
+    margin-top:25px;
+    font-size:20px;
+    color:#ffffff;
+    margin-bottom:15px;
+}
+.setumei_small
+{
+    text-align: center;
+    margin-top:5px;
+    font-size:14px;
+    color:#cccccc;
+}
+
+.centerTXT
+{
+    text-align:center;
+    font-size:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.centerIMG
+{
+    text-align : center;
+    margin-bottom:30px;
+}
+
+/*とらっくりすと*/
+
+.tracklist
+{
+    display: flex;
+    justify-content: center;
+}
+
+.tracklist
+{
+    border:0px;
+}
+
+.tracklist td
+{
+    padding:8px;
+}
+
+table tr:nth-child(odd) td {
+	background: #fff;
+    color:#000000;
+}
+
+.shops
+{
+    text-align:center;
+}
+
+.shops a:hover
+{
+    position:relative;
+    bottom:3px;
+    opacity: 0.8;
+
+}
+
+.Tano_C
+{
+    margin-right : 70px;
+}
